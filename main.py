@@ -57,5 +57,5 @@ def another(num_words:int, file_name:str = "filtered_words.txt"):
     return str(pass_phrase).strip("',")
 if __name__ == "__main__":
     # print(another(5))
-    # print(generate(5))
-    filter_file("short.txt", 3)
+    print(generate(5))
+    # filter_file("short.txt", 3)
